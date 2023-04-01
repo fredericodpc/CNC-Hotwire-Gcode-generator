@@ -1,19 +1,39 @@
 # CNC-Hotwire-Gcode-generator
 
-This app has been specifically developed for the in-house CNC hot wire foam cutter located in the Rapid Prototyping Lab at the University of Bristol, Bristol U.K. 🇬🇧.
+This is a G-Code generator Matlab App specifically developed for the in-house CNC hot wire foam cutter located in the Rapid Prototyping Lab at the University of Bristol, Bristol UK.
 
-HOW TO INSTALL 💻 🖥️:
-- make sure you are running 2022 or later versions of Matlab;
+![alt text](https://github.com/fredericodpc/CNC-Hotwire-Gcode-generator/blob/main/figures/CNC_foam_cutter.jpeg)
+
+
+# Requirements
++ Matlab:     9.12 (R2022_a) or later
++ Toolboxes:  Partial Differential Equation & Curve Fitting 
+    + In Matlab go to Home :arrow_right: Add-Ons :arrow_right: Get Add-Ons 
+    + In the Add-On Explorer search for the above-mentioned toolboxes 
+    + Click Install and follow the instructions
+```>>requirements = dependencies.toolboxDependencyAnalysis('GCodeGen_GUI.mlapp')```
+
+
+## Getting Started 💻 🖥️
 - clone the repository:
-  - click [⬇️Code] and copy the url by clicking 🖱️ on "HTTPS";
-  - open Terminal;
-  - change the current working directory 📁 to the location where you want to clone;
-  - command (type): git clone [insert URL copied here]
-  - press Enter. 
-- double click directly on the Matlab App Installer located in the repository folder, OR; 
-- in Matlab, in the APPS tab click "Install App", find the cloned repository location and select the installer; 
-- you will then be prompted with "Install into My Apps?" - click "Install".
+  - click [<>Code] and copy the url under the HTTPS tab
+  - open the Terminal/PowerShell
+  - 📁 change the current working directory to the location where you want to clone
+```cd your/directory/path/here```
+  - clone the repository
+```git clone https://github.com/fredericodpc/CNC-Hotwire-Gcode-generator.git```
 
-When you first try and use the App, Matlab could throw an error associated to a missing Partial Differential Equations or ...... toolbox(es). Please, follow the link on the command window to install the package(s).
+### Working from source
+  - move to the source folder
+  ```cd CNC-Hotwire-Gcode-generator/src```
+  - double click GCodeGen_GUI.mlapp
+  - Matlab App Designer will open, where the app can be run and respective source code altered in the Code View.
 
+### Installing App V2.0
+- double click UoB_CNC_Hotwire_GCodeGen_V2.mlappinstall 
+- "Install into My Apps?" :arrow_right: "Install" 
+- The app will be located in the Apps tab.
 
+## Contributors
+- Dr Frederico Paulino | Teaching Associate  | f.paulino@bristol.ac.uk
+- Matthew Richardson | Specialist Technician | matthew.richardson@bristol.ac.uk

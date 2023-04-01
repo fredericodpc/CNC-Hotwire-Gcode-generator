@@ -1,0 +1,68 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2169979155" file="/Volumes/Extreme SSD/UoB - Teaching Associate/AVDASI2/GCodeGenerator/CNC-Hotwire-Gcode-generator/src/GCodeGen_GUI.prj" location="/Volumes/Extreme SSD/UoB - Teaching Associate/AVDASI2/GCodeGenerator/CNC-Hotwire-Gcode-generator/src" name="GCodeGen_GUI" target="target.mlapps" target-name="Package App">
+    <param.appname>GCodeGen_GUI</param.appname>
+    <param.authnamewatermark>Dr Frederico Paulino</param.authnamewatermark>
+    <param.email>f.paulino@bristol.ac.uk</param.email>
+    <param.company>University of Bristol</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>G-code generator for the CNC hot wire foam cutter located at the Rapid Prototyping Lab, University of Bristol, Bristol, UK.</param.summary>
+    <param.description>Version 2.0.</param.description>
+    <param.screenshot />
+    <param.version>2.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Volumes/Extreme SSD/UoB - Teaching Associate/AVDASI2/GCodeGenerator/CNC-Hotwire-Gcode-generator</param.output>
+    <param.guid>21b7754e-c769-45de-8a82-cfe7ac56abf6</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/GCodeGen_GUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/SurfaceIntersection.m</file>
+      <file>${PROJECT_ROOT}/interpclosed.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Volumes/Extreme SSD/UoB - Teaching Associate/AVDASI2/GCodeGenerator" name="CNC-Hotwire-Gcode-generator" optional="false">/Volumes/Extreme SSD/UoB - Teaching Associate/AVDASI2/GCodeGenerator/CNC-Hotwire-Gcode-generator</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2022a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>12.6.3</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
